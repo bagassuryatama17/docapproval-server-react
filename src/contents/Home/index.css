@@ -19,6 +19,8 @@ section {
   width: 100%;
   z-index: 9000;
   padding: 0px;
+  position: fixed;
+  margin-bottom: 38px;
 }
 .musthead-appname {
   color: #abaeb7;
@@ -33,7 +35,8 @@ section {
 .hero-header {
   height: 370px;  
   max-height: 370px;
-  min-height: 370px;
+  min-height: 370px; 
+  margin-top: 38px !important;
 }
 
 .label {
