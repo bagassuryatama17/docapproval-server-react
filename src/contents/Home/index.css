@@ -1,18 +1,23 @@
-h1,h2,h3 {
-  margin: 0px;
+body {
+  margin: 0;
+  font-family: helvetica,arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-p {
-  margin: 0px;
-  line-height: 1rem;
-  font-size: 1rem;
+code {
+  font-family: helvetica,arial,sans-serif;
 }
 
 section {
   display: block;
 }
 
-.musthead {
+.text-white {
+  color: #fff !important;
+}
+
+.masthead {
   background-color: #313236;
   border-bottom: 1px solid #313236;
   height: 38px;
@@ -22,25 +27,12 @@ section {
   position: fixed;
   margin-bottom: 38px;
 }
-.musthead-appname {
-  color: #abaeb7;
-  display: inline-block;
-  font-size: 1.2rem;
-  font-weight: 600;
-  line-height: 38px;
-  margin: 0;
-  vertical-align: top;
-}
 
 .hero-header {
   height: 370px;  
   max-height: 370px;
   min-height: 370px; 
   margin-top: 38px !important;
-}
-
-.label {
-  font-size: 0.75rem !important;
 }
 
 .personalize-text {

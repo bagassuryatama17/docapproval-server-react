@@ -1,0 +1,15 @@
+[{
+    "data": [{
+      "name": "Item A",
+      "value": 10.1,
+      "pattern": "mesh"
+    },{
+      "name": "Item B",
+      "value": 12.2,
+      "pattern": "mixed"
+    }, {
+      "name": "Item C",
+      "value": 14.35,
+      "pattern": "lines"
+    }]
+}]

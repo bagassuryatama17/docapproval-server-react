@@ -1,0 +1,42 @@
+[
+	{
+    "id": 1, 
+    "documentId": "CPX001", 
+    "documentType": "Capex", 
+    "description": "Ini adalah capex", 
+    "dateCreated": "28/10/2022", 
+    "unit": "Ungaran"
+	},
+  {
+    "id": 2, 
+    "documentId": "CPX001", 
+    "documentType": "Capex", 
+    "description": "Ini adalah capex", 
+    "dateCreated": "28/10/2022", 
+    "unit": "Ungaran"
+	},
+  {
+    "id": 3, 
+    "documentId": "CPX001", 
+    "documentType": "Capex", 
+    "description": "Ini adalah capex", 
+    "dateCreated": "28/10/2022", 
+    "unit": "Ungaran"
+	},
+  {
+    "id": 4, 
+    "documentId": "CPX001", 
+    "documentType": "Capex", 
+    "description": "Ini adalah capex", 
+    "dateCreated": "28/10/2022", 
+    "unit": "Ungaran"
+	},
+  {
+    "id": 5, 
+    "documentId": "CPX001", 
+    "documentType": "Capex", 
+    "description": "Ini adalah capex", 
+    "dateCreated": "28/10/2022", 
+    "unit": "Ungaran"
+	}
+]

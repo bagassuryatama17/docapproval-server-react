@@ -1,0 +1,29 @@
+[
+    {
+       "id":1,
+       "capexId":"FAS-400-7439937961",
+       "capexName":"Pembelian Mac Book Baru",
+      
+       "Submit":"2022-01-02",
+       "requestor":"Albert Einstein"
+       
+    },
+    {
+       "id":2,
+       "capexId":"3672150959",
+       "capexName":"Pembelian Kursi baru ruang pantry",
+      
+       "Submit":"2022-01-02",
+       "requestor":"Albert Einstein"
+       
+    },
+    {
+       "id":3,
+       "capexId":"8233719404",
+       "capexName":"Perbaikan Gedung baru",
+       
+       "Submit":"2022-01-02",
+       "requestor":"Albert Einstein"
+     
+    }
+ ]

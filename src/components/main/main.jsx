@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
-import Information from './information';
-import TabsContent from './tabsContents';
+import Information from '../information/information';
+import TabsContent from '../tabsContent/tabsContents';
 // import TabsContent2 from './Information';
 // import IdsTabsCapex from './ids-tabs-capex';
 
@@ -31,36 +31,28 @@ const Main = () => {
       <ids-tabs-context>
         <ids-tabs ref={tabsRef}>
           <ids-tab value="information">Information</ids-tab>
-          <ids-tab value="capex">Capex</ids-tab>
+          <ids-tab value="capex">CAPEX</ids-tab>
           <ids-tab value="mrf">MRF</ids-tab>
           <ids-tab value="others">Others</ids-tab>
         </ids-tabs>
         <div className="ids-tabs-content">
-        <ids-tab-content active={activeTab === 'information'}>
-        <div className="tab-content">
-         <Information />
-         </div>
-         </ids-tab-content>
-          <ids-tab-content active={activeTab === 'capex'}>
+          <ids-tab-content active={activeTab === 'information'}>
             <div className="tab-content">
-       
-            <TabsContent />
-        
+              <Information/>
+            </div>
+          </ids-tab-content>
+          <ids-tab-content active={activeTab === 'capex'}>
+            <div className="tab-content">  
+              <TabsContent />     
             </div>
           </ids-tab-content>
           <ids-tab-content active={activeTab === 'mrf'}>
-            <ids-text font-size="18">
-              It’s ridiculous to live 100 years and only be able to remember 30
-              million bytes. You know, less than a compact disc. The human
-              condition is really becoming more obsolete every minute. (Marvin
-              Minsky)
-            </ids-text>
+            <div className="tab-content">       
+            </div>
           </ids-tab-content>
           <ids-tab-content active={activeTab === 'others'}>
-            <ids-text font-size="18">
-              If debugging is the process of removing bugs, then programming
-              must be the process of putting them in. (Edsger W. Dijkstra)
-            </ids-text>
+            <div className="tab-content">       
+            </div>
           </ids-tab-content>
         </div>
       </ids-tabs-context>
