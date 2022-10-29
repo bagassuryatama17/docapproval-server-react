@@ -16,7 +16,7 @@ const Information= () => {
           </ids-card>
         </ids-layout-grid-cell>
 
-        <ids-layout-grid-cell>
+        <ids-layout-grid-cell col-span="2">
           <ids-card>
             <div slot="card-header">
               <h2 class="card-title">All Documents Trafic</h2>
@@ -30,16 +30,6 @@ const Information= () => {
           <ids-card>
             <div slot="card-header">
               <h2 class="card-title">Documents Status</h2>
-            </div>
-            <div slot="card-content">
-            </div>
-          </ids-card>
-        </ids-layout-grid-cell>
-
-        <ids-layout-grid-cell>
-          <ids-card>
-            <div slot="card-header">
-              <h2 class="card-title">Documents Per Units</h2>
             </div>
             <div slot="card-content">
             </div>

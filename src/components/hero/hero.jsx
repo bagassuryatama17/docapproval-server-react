@@ -8,7 +8,7 @@ const Hero = () => {
       <ids-layout-grid class="hero-header" cols="2" style={{backgroundColor: bgColors.Primary , padding: '0px', margin: '0px'}}>
         <ids-layout-grid-cell style={{margin: '40px', paddingLeft:'30px', paddingRight:'30%', color:'#fff'}}>
           <p class="font-size-px-28 text-strong text-white">
-            Welcome Fajrin Rama Sanjaya,
+            Welcome Administrator,
           </p>
           <p class="label text-descriptive text-white">
             Document Approval Management Busana Apparel Group
