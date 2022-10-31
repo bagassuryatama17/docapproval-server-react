@@ -10,7 +10,7 @@ const History = () => {
   useEffect(() => {
     async function fetchData() {
       // Do an ajax request
-      const response = await fetch('/assets/data/history.json');
+      const response = await fetch('assets/data/history.json');
       const data = await response.json()
 
       // Set columns
