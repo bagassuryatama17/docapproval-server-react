@@ -10,6 +10,7 @@ import 'ids-enterprise-wc/components/ids-tabs/ids-tabs';
 const App = () => {
   return (
     <Home />
+    // test
   );
 };
 
